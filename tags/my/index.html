@@ -319,7 +319,7 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '【红包】点击打开红包';
+            document.title = '有人@你';
             clearTimeout(titleTime);
         } else {
             document.title = 'McMagni';
